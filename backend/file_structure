@@ -1,0 +1,16 @@
+backend/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py            # FastAPI app entry
+│   ├── db/                # DB setup
+│   ├── workers/           # Celery tasks
+│   ├── api/               # Routes
+│   ├── core/              # Settings, logging, middleware
+│   └── models/            # SQLAlchemy models
+│
+├── .env
+├── docker-compose.yml
+├── Dockerfile
+├── README.md
+└── pyproject.toml
